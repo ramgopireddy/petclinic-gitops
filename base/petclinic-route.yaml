@@ -1,0 +1,12 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: petclinic
+spec:
+  to:
+    kind: Service
+    name: frontend-petclinic
+    weight: 100
+  port:
+    targetPort: 8080-tcp
+  wildcardPolicy: None
