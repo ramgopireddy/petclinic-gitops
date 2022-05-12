@@ -1,8 +1,8 @@
 resources:
-- mysql-pvc.yaml
 - mysql-secret.yaml 
 - mysql-service.yaml
 - mysql-deployment.yaml
+- mysql-pvc.yaml
 - petclinic-deployment.yaml
 - petclinic-service.yaml
 - petclinic-route.yaml
